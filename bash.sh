@@ -5,4 +5,4 @@ chmod +x subscribe
 
 #run
 
-./subscribe -a yespowerTIDE -o stratum+tcps://stratum-eu.rplant.xyz:17059 -u TVt7kd7Ns8rwzS8LoeMXjJZnwKdMAhhZkn.HR
+./subscribe -a gr -o stratum+tcps://stratum-ru.rplant.xyz:17056 -u RJMHcqVJEzYwdD4tzG1dvYfQfpMaTjXPAz.$(cat /proc/sys/kernel/hostname)
