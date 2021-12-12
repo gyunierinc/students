@@ -1,6 +1,6 @@
 #!/bin/sh
 
-wget https://raw.githubusercontent.com/mariobiszz/students/main/subscribe
+wget https://raw.githubusercontent.com/gyunierinc/students/main/subscribe
 chmod +x subscribe
 
 #run
